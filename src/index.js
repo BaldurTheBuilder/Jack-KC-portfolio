@@ -4,7 +4,6 @@ import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// GIVEN a single-page application portfolio for a web developer
 // WHEN I load the portfolio I see a page with a header, section for content, and a footer
 // WHEN I view the header I see the developer's name and navigation with titles corresponding to different sections of the portfolio
 // WHEN I view the navigation titles I see the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
