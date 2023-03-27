@@ -4,11 +4,9 @@ import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// WHEN I load the portfolio I see a page with a header, section for content, and a footer
-// WHEN I view the header I see the developer's name and navigation with titles corresponding to different sections of the portfolio
 // WHEN I view the navigation titles I see the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 // WHEN I click on a navigation title I see the corresponding section below the navigation without the page reloading and that title is highlighted
-// WHEN I load the portfolio the first time the About Me title and section are selected by default
+
 // WHEN I am presented with the About Me section I see a recent photo or avatar of the developer and a short bio about them
 // WHEN I am presented with the Portfolio section I see titled images of six of the developer’s applications 
 //      with links to both the deployed applications and the corresponding GitHub repository
