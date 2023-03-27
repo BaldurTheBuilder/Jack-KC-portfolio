@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jack-KC-portfolio/static/css/main.6a7cc62d.css",
+    "main.js": "/Jack-KC-portfolio/static/js/main.3f216262.js",
+    "index.html": "/Jack-KC-portfolio/index.html",
+    "main.6a7cc62d.css.map": "/Jack-KC-portfolio/static/css/main.6a7cc62d.css.map",
+    "main.3f216262.js.map": "/Jack-KC-portfolio/static/js/main.3f216262.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a7cc62d.css",
+    "static/js/main.3f216262.js"
+  ]
+}
