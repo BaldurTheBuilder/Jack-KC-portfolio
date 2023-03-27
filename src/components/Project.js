@@ -1,7 +1,7 @@
 //     A single Project component that will be used multiple times in the Portfolio section
 import React from 'react';
 
-const Project = () => {
+const Project = ({image, title, deployedApp, repo}) => {
     return (
         <div>
             <p>test</p>
