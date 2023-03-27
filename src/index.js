@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // WHEN I view the navigation titles I see the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 // WHEN I click on a navigation title I see the corresponding section below the navigation without the page reloading and that title is highlighted
-
 // WHEN I am presented with the About Me section I see a recent photo or avatar of the developer and a short bio about them
 // WHEN I am presented with the Portfolio section I see titled images of six of the developer’s applications 
 //      with links to both the deployed applications and the corresponding GitHub repository
@@ -31,10 +31,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 //     Uses reasonable font sizes/styles and colors to prevent eye strain.
 //     Consider using animations and React component libraries.
 
-//     Must use React.
-//     Single Header component that appears on multiple pages
-//         header has a Navigation component that conditionally renders About Me, Portfolio, Contact, and Resume sections
 //     Single Project component that's used multiple times in the Portfolio section
-//     Single Footer component that appears on multiple pages
 //     Application deployed at live URL on GitHub Pages
 //     Application uses a color scheme other than the default Bootstrap color palette.
