@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// WHEN I am presented with the ______About Me_____ section I see a recent photo or avatar of the developer and a short bio about them
+
 // WHEN I am presented with the _____Portfolio_____ section I see titled images of six of the developer’s applications 
 //      with links to both the deployed applications and the corresponding GitHub repository
 // WHEN I am presented with the _____Contact______ section I see a contact form with fields for a name, an email address, and a message
