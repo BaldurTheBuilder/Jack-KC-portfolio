@@ -12,9 +12,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 //      WHEN I move my cursor out of one of the form fields without entering text I receive a notification that this field is required
 //      WHEN I enter text into the email address field I receive a notification if I have entered an invalid email address
 
-
-
-
 // The contact form should be similar to the one you built in the module project. Because this application doesn’t include a back end or connect to an API,
 // you can set up this functionality the same way you did in the module project and add in back-end functionality after you’ve covered it in the next few weeks.
 // In the meantime, consider adding your email address and phone number on the Contact page.
