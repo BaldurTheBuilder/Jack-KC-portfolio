@@ -1,6 +1,7 @@
 //     A single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
 // WHEN I view the navigation titles I see the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 // WHEN I click on a navigation title I see the corresponding section below the navigation without the page reloading and that title is highlighted
+// WHEN I view the navigation titles I see the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 import React from 'react';
 import '../styles/Navbar.css';
 
@@ -11,7 +12,6 @@ const Navigation = ({currentPage, handlePageChange}) => {
             <a
               href="#about-me"
               onClick={() => handlePageChange('AboutMe')}
-              // this is a ternary operator. It checks whether the currentPAge is "About Me". If so, it sets the classname to "nav-link active"; else it's only "nav-link".
               className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
             >
               About Me

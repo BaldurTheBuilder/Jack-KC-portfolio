@@ -28,7 +28,10 @@ const PageContainer = () => {
     
   return ( 
   <div> 
-    {/* WHEN I load the portfolio I see a page with a header, section for content, and a footer*/}
+    {
+     /* WHEN I load the portfolio I see a page with a header, section for content, and a footer
+        WHEN I click on a navigation title I see the corresponding section below the navigation without the page reloading and that title is highlighted*/
+    }
     <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
     {renderPage()}
     <Footer/>
