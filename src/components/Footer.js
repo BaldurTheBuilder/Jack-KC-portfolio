@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Footer = ({}) => {
-  return (1
+  return (
+    <p>
+      this is the footer
+    </p>
   );
 };
 

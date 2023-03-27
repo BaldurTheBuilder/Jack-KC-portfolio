@@ -3,9 +3,48 @@
 // WHEN I click on a navigation title I see the corresponding section below the navigation without the page reloading and that title is highlighted
 import React from 'react';
 
-const Navigation = () => {
-    return (1
-    );
+const Navigation = ({currentPage, handlePageChange}) => {
+    return (
+        <ul className="nav nav-tabs">
+          <li className="nav-item">
+            <a
+              href="#about-me"
+              onClick={() => handlePageChange('AboutMe')}
+              // this is a ternary operator. It checks whether the currentPAge is "About Me". If so, it sets the classname to "nav-link active"; else it's only "nav-link".
+              className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+            >
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#contact"
+              onClick={() => handlePageChange('Contact')}
+              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            >
+              Contact
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#portfolio"
+              onClick={() => handlePageChange('Portfolio')}
+              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#resume"
+              onClick={() => handlePageChange('Resume')}
+              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      );
   };
   
   export default Navigation;

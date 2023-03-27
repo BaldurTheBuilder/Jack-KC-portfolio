@@ -1,14 +1,11 @@
 import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-
-import Project from "./components/Project";
+import PageContainer from "./components/PageContainer";
 
 function App() {
   return (
     // components go here as JSX
     <div>
-      <Project/>
+      <PageContainer/>
     </div>
   );
 }
