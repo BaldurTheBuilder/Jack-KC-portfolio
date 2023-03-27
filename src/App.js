@@ -1,10 +1,11 @@
 import React from "react";
-// import components here
+import PageContainer from "./components/PageContainer";
 
 function App() {
   return (
-    // components go here as JSX
-    0
+    <div>
+      <PageContainer/>
+    </div>
   );
 }
 
